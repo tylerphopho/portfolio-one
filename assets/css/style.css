@@ -1,0 +1,190 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/assets/images/greek-vase.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    position: relative;
+}
+
+
+.navbar {
+    border-bottom: 3px solid #cccccc;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.topnav a.active {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.topnav {
+    overflow: hidden;
+    margin: auto;
+    width: 960px;
+    background-color: #ffffff
+}
+
+.topnav a {
+    float: left;
+    color:  #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.float-right {
+    float: right;
+    padding-top: 15px;
+}
+
+.topnav span {
+    padding-top: 15px;
+    float: left;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.center {
+    width: 960px;
+    border: 10px;
+    padding: 30px;
+    margin: auto;
+}
+
+/* About Section */
+
+.main-content {
+    background-color: #ffffff;
+    width: 960px;
+    min-height: 100%;
+    margin-bottom: -50px;
+    margin: 30px auto 60px auto;
+    border: #dddddd solid 2px;
+    position: relative;
+}
+
+.content-title {
+    padding: 15px 25px;
+    color: #4aaaa5;
+    font-size: 20px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+hr {
+    border-top: 1.5px solid #dddddd;
+}
+
+.content-info {
+    margin: -27px 25px 20px 25px;
+}
+
+.img-me {
+    width: 150px;
+    padding-right: 30px;
+    float: left;
+    margin-top: 10px;
+}
+
+.content-info p {
+    line-height: 1.7;
+    font-size: 20px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: #777777;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    padding: 10px 0;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Contact Section */
+.contact-content {
+    background-color: #ffffff;
+    width: 960px;
+    height: 100%;
+    margin: 30px auto 300px auto;
+    border: #dddddd solid 2px;
+    position: relative;
+}
+
+form {
+    width: 95%;
+    margin: 0 auto 15px auto;
+}
+
+input [type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input [type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+/* Portfolio Section */
+
+.portfolio-content {
+background-color: white;
+min-height: 950px;
+width: 960px;
+margin: 30px auto 200px auto;
+border: #dddddd solid 2px;
+
+
+}
+
+.grid-content {
+width: 80%;
+margin-left: 12px;
+}
+
+.img-content {
+    width: 30px;
+    float: left;
+    position: relative;
+    margin: 20px 30px;
+}
+
+.text {
+    position: absolute;
+    bottom: 15px;
+    clear: both;
+    width: 100%;
+    height: 20px;
+    background-color: #4aaaa5;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
